@@ -8,5 +8,5 @@ before_script:
 - travis_retry composer self-update
 - composer install
 script: 
-- "phpunit --testsuite=unit --coverage-text --coverage-clover build/logs/clover.xml"
+- "phpunit --testsuite=unit"
 
