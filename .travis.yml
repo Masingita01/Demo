@@ -8,8 +8,7 @@ php:
   -hhvm
 
 before_script: 
-- "composer require codeclimate/php-test-reporter --dev"
-- "composer install"
+- composer install
 
 script: 
 - "phpunit --testsuite=unit --coverage-text --coverage-clover build/logs/clover.xml"
