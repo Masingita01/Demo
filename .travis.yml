@@ -7,7 +7,7 @@ php:
   -'7.1'
   -hhvm
 
-before_install: 
+before_script: 
 - "composer require codeclimate/php-test-reporter --dev"
 - "composer install"
 
