@@ -10,5 +10,3 @@ before_script:
 - composer install
 script: 
 - "phpunit --testsuite=unit --coverage-text --coverage-clover build/logs/clover.xml"
-- CODECLIMATE_REPO_TOKEN="6c16a49836993e212af9aa21b7cb33e65f4f519c6896436007f504c0d73c5bef" vendor/bin/test-reporter --stdout > codeclimate.json
-
