@@ -8,5 +8,5 @@ before_script:
 - "composer require codeclimate/php-test-reporter --dev"
 - composer install
 script: 
-- "phpunit --testsuite=unit"
+- "phpunit --testsuite=unit --coverage-text --coverage-clover build/logs/clover.xml"
 
